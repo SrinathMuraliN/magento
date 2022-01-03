@@ -1,0 +1,30 @@
+---
+dataset:
+  country: argentina
+  sales_org: AR00
+  grouping_cols:
+  - cust_id
+  - city
+  - customer_classification
+  - subsector
+  - category
+  - brand
+  - product_key
+  product_features_cols:
+  - product_key
+  - subsector
+  - category
+  - brand
+  customer_features_cols:
+  - cust_id
+  - city
+  - customer_classification
+  columns: []
+  column_to_predict: target
+  columns_with_attr: []
+  test_size: 0.2
+  nfolds: 3
+  num_samples: 5
+  num_threads: 1
+  recency: 180
+models: {}

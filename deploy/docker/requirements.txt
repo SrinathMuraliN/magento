@@ -1,0 +1,6 @@
+PyYAML
+gcsfs
+numpy
+pandas
+lightfm
+scikit-learn

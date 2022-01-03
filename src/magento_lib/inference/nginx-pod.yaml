@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: final-inference
+spec:
+    containers:
+      - name: final-inference
+        image: final-inference
+        ports:
+        - containerPort: 80
+
