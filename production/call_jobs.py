@@ -1,6 +1,7 @@
 import logging
 import traceback
 
+import gcsfs
 import click
 import fsspec
 import yaml
