@@ -4,3 +4,4 @@ numpy
 pandas
 lightfm
 scikit-learn
+click
